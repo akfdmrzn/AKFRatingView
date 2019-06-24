@@ -15,22 +15,24 @@ import UIKit
 
 
 
-protocol AKFRateViewDelegate {
+public protocol AKFRateViewDelegate {
     func didChangedRateView(sender : AKFRatingView)
 }
-@IBDesignable
-class AKFRatingView: UIView {
+
+public class AKFRatingView: UIView {
     
-    @IBOutlet weak var collectionView: UICollectionView!
-    @IBOutlet var contentView: UIView!
     
-    @IBInspectable var image: UIImage = UIImage.init(named: "emptycircle")!
-    @IBInspectable var numberOfCell : Int = 5
-    @IBInspectable var currentValue : Int = 0
     
-    var delegate : AKFRateViewDelegate?
+    public var image: UIImage = #imageLiteral(resourceName: "Ellipse 48@2x.png")
+    public var numberOfCell : Int = 5
+    public var currentValue : Int = 0
     
-    override func awakeFromNib() {
+    @IBOutlet var contentView: AKFRatingView!
+    
+    @IBOutlet weak var collectionViewRating: UICollectionView!
+    open  var delegate : AKFRateViewDelegate?
+    
+    override public func awakeFromNib() {
         super.awakeFromNib()
     }
     
@@ -45,16 +47,16 @@ class AKFRatingView: UIView {
         setupThisView()
     }
     
-    private func setupThisView(){
+    public func setupThisView(){
         guard let view = loadViewFromNib() else { return }
         view.frame = bounds
         view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         addSubview(view)
-        contentView = view
-        self.collectionView!.register(AKFRatingViewCollectionViewCell.nib, forCellWithReuseIdentifier: AKFRatingViewCollectionViewCell.identifier)
-        self.collectionView!.delegate = self
-        self.collectionView!.dataSource = self
-        self.collectionView!.reloadData()
+        contentView = view as! AKFRatingView
+        self.collectionViewRating!.register(AKFRatingViewCollectionViewCell.nib, forCellWithReuseIdentifier: AKFRatingViewCollectionViewCell.identifier)
+        self.collectionViewRating!.delegate = self
+        self.collectionViewRating!.dataSource = self
+        self.collectionViewRating!.reloadData()
     }
     
     func loadViewFromNib() -> UIView? {
@@ -65,11 +67,11 @@ class AKFRatingView: UIView {
     }
 }
 extension AKFRatingView : UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout{
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.numberOfCell
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: AKFRatingViewCollectionViewCell.identifier, for: indexPath)
             as! AKFRatingViewCollectionViewCell
         if self.currentValue == 0 {
@@ -87,12 +89,12 @@ extension AKFRatingView : UICollectionViewDelegate,UICollectionViewDataSource,UI
         }
         return cell
     }
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+    private func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize.init(width: 28.0, height: 28.0)
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         self.currentValue = indexPath.row + 1
-        self.collectionView.reloadData()
+        self.collectionViewRating.reloadData()
         self.delegate?.didChangedRateView(sender: self)
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
@@ -106,7 +108,7 @@ extension AKFRatingView : UICollectionViewDelegate,UICollectionViewDataSource,UI
     }
 }
 extension AKFRatingView : AKFRateViewDelegate{
-    func didChangedRateView(sender : AKFRatingView) {
+    public func didChangedRateView(sender : AKFRatingView) {
         
     }
 }

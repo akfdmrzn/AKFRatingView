@@ -31,14 +31,10 @@
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BF1A1E3A22C0992000799EBD /* AKFRatingViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1A1E3822C0992000799EBD /* AKFRatingViewCollectionViewCell.swift */; };
 		BF1A1E3D22C0993600799EBD /* AKFRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1A1E3C22C0993600799EBD /* AKFRatingView.swift */; };
-		BF1A1E4322C09B1500799EBD /* Ellipse 47@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1A1E4222C09B1500799EBD /* Ellipse 47@2x.png */; };
-		BF1A1E4522C09B1F00799EBD /* Ellipse 48@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1A1E4422C09B1F00799EBD /* Ellipse 48@2x.png */; };
-		BF1A1E4722C09B2400799EBD /* Ellipse 49@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1A1E4622C09B2400799EBD /* Ellipse 49@2x.png */; };
-		BF1A1E4922C09B2B00799EBD /* Ellipse 55@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1A1E4822C09B2B00799EBD /* Ellipse 55@2x.png */; };
-		BF1A1E4B22C09B3100799EBD /* Ellipse 56@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1A1E4A22C09B3100799EBD /* Ellipse 56@2x.png */; };
-		BF1A1E4D22C09B3700799EBD /* Ellipse 64@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1A1E4C22C09B3700799EBD /* Ellipse 64@2x.png */; };
 		BF1A1E4F22C09EAB00799EBD /* AKFRatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1A1E4E22C09EAB00799EBD /* AKFRatingView.xib */; };
 		BF1A1E5122C09EB100799EBD /* AKFRatingViewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1A1E5022C09EB100799EBD /* AKFRatingViewCollectionViewCell.xib */; };
+		BF1A1E5322C0A9EF00799EBD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1A1E5222C0A9EF00799EBD /* User.swift */; };
+		BF1A1E5522C0ADD900799EBD /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1A1E5422C0ADD900799EBD /* Media.xcassets */; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBEE7722740389D02D6A3BBF3CAA5601 /* Pods-AKFRatingView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 585AC9FECC92ABA0FB94B334BEF045E5 /* Pods-AKFRatingView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -119,14 +115,10 @@
 		BE7F372AE555C4598E84906440E0B78C /* Pods-AKFRatingView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKFRatingView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BF1A1E3822C0992000799EBD /* AKFRatingViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AKFRatingViewCollectionViewCell.swift; path = AKFRatingView/Classes/AKFRatingViewCollectionViewCell.swift; sourceTree = "<group>"; };
 		BF1A1E3C22C0993600799EBD /* AKFRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AKFRatingView.swift; path = AKFRatingView/Classes/AKFRatingView.swift; sourceTree = "<group>"; };
-		BF1A1E4222C09B1500799EBD /* Ellipse 47@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ellipse 47@2x.png"; path = "AKFRatingView/Classes/Ellipse 47@2x.png"; sourceTree = "<group>"; };
-		BF1A1E4422C09B1F00799EBD /* Ellipse 48@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ellipse 48@2x.png"; path = "AKFRatingView/Classes/Ellipse 48@2x.png"; sourceTree = "<group>"; };
-		BF1A1E4622C09B2400799EBD /* Ellipse 49@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ellipse 49@2x.png"; path = "AKFRatingView/Classes/Ellipse 49@2x.png"; sourceTree = "<group>"; };
-		BF1A1E4822C09B2B00799EBD /* Ellipse 55@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ellipse 55@2x.png"; path = "AKFRatingView/Classes/Ellipse 55@2x.png"; sourceTree = "<group>"; };
-		BF1A1E4A22C09B3100799EBD /* Ellipse 56@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ellipse 56@2x.png"; path = "AKFRatingView/Classes/Ellipse 56@2x.png"; sourceTree = "<group>"; };
-		BF1A1E4C22C09B3700799EBD /* Ellipse 64@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ellipse 64@2x.png"; path = "AKFRatingView/Classes/Ellipse 64@2x.png"; sourceTree = "<group>"; };
 		BF1A1E4E22C09EAB00799EBD /* AKFRatingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AKFRatingView.xib; path = AKFRatingView/Classes/AKFRatingView.xib; sourceTree = "<group>"; };
 		BF1A1E5022C09EB100799EBD /* AKFRatingViewCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AKFRatingViewCollectionViewCell.xib; path = AKFRatingView/Classes/AKFRatingViewCollectionViewCell.xib; sourceTree = "<group>"; };
+		BF1A1E5222C0A9EF00799EBD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BF1A1E5422C0ADD900799EBD /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		CC67DC400943F492CA6BA10ABF4F907B /* Pods-AKFRatingView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKFRatingView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D05C5AF84B3759A0C527981ED801769F /* Pods-AKFRatingView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AKFRatingView_Tests.modulemap"; sourceTree = "<group>"; };
 		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
@@ -367,17 +359,13 @@
 			children = (
 				BF1A1E5022C09EB100799EBD /* AKFRatingViewCollectionViewCell.xib */,
 				BF1A1E4E22C09EAB00799EBD /* AKFRatingView.xib */,
-				BF1A1E4C22C09B3700799EBD /* Ellipse 64@2x.png */,
-				BF1A1E4A22C09B3100799EBD /* Ellipse 56@2x.png */,
-				BF1A1E4822C09B2B00799EBD /* Ellipse 55@2x.png */,
-				BF1A1E4622C09B2400799EBD /* Ellipse 49@2x.png */,
-				BF1A1E4422C09B1F00799EBD /* Ellipse 48@2x.png */,
-				BF1A1E4222C09B1500799EBD /* Ellipse 47@2x.png */,
 				F9CE6280773E918FE5C1D85C5DBF5459 /* ReplaceMe.swift */,
 				B8D09C1A17A0BED3231929E461B4C7B6 /* Pod */,
 				DA757D9DACDCDFC782D4F4587581C77F /* Support Files */,
 				BF1A1E3822C0992000799EBD /* AKFRatingViewCollectionViewCell.swift */,
 				BF1A1E3C22C0993600799EBD /* AKFRatingView.swift */,
+				BF1A1E5222C0A9EF00799EBD /* User.swift */,
+				BF1A1E5422C0ADD900799EBD /* Media.xcassets */,
 			);
 			name = AKFRatingView;
 			path = ../..;
@@ -558,14 +546,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF1A1E4922C09B2B00799EBD /* Ellipse 55@2x.png in Resources */,
-				BF1A1E4722C09B2400799EBD /* Ellipse 49@2x.png in Resources */,
 				BF1A1E4F22C09EAB00799EBD /* AKFRatingView.xib in Resources */,
-				BF1A1E4B22C09B3100799EBD /* Ellipse 56@2x.png in Resources */,
-				BF1A1E4522C09B1F00799EBD /* Ellipse 48@2x.png in Resources */,
 				BF1A1E5122C09EB100799EBD /* AKFRatingViewCollectionViewCell.xib in Resources */,
-				BF1A1E4322C09B1500799EBD /* Ellipse 47@2x.png in Resources */,
-				BF1A1E4D22C09B3700799EBD /* Ellipse 64@2x.png in Resources */,
+				BF1A1E5522C0ADD900799EBD /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,6 +594,7 @@
 				BF1A1E3D22C0993600799EBD /* AKFRatingView.swift in Sources */,
 				BF1A1E3A22C0992000799EBD /* AKFRatingViewCollectionViewCell.swift in Sources */,
 				FC8C9153E7FC2278C853FCA32988093D /* AKFRatingView-dummy.m in Sources */,
+				BF1A1E5322C0A9EF00799EBD /* User.swift in Sources */,
 				9C624B3407803A7356A5761726D7F4C6 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,12 +11,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AKFRatingView" customModule="AKFRatingView" customModuleProvider="target">
             <connections>
-                <outlet property="collectionView" destination="c17-O2-cJ9" id="2y8-UO-YW1"/>
-                <outlet property="contentView" destination="iN0-l3-epB" id="VaU-WC-dQN"/>
+                <outlet property="collectionViewRating" destination="c17-O2-cJ9" id="lLB-v8-wQk"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="ccI-3T-ieW"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AKFRatingView" customModule="AKFRatingView" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="414" height="239"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
