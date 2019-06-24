@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AKFRatingView'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'This rating view contains images values and rating.'
 
 # This description is used to generate tags and improve search results.
