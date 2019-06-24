@@ -1,0 +1,27 @@
+PODS:
+  - AKFRatingView (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - AKFRatingView (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  AKFRatingView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AKFRatingView: ab373aced5fd0b7f1e713188d4afaedcaa3098f5
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: d7520c711b689b5e5ae4659a389d20b5505383c1
+
+COCOAPODS: 1.7.1

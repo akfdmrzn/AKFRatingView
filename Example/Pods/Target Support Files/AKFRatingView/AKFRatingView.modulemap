@@ -1,0 +1,6 @@
+framework module AKFRatingView {
+  umbrella header "AKFRatingView-umbrella.h"
+
+  export *
+  module * { export * }
+}

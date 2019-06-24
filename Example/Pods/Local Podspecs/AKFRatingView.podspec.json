@@ -1,0 +1,22 @@
+{
+  "name": "AKFRatingView",
+  "version": "0.1.0",
+  "summary": "A short description of AKFRatingView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/akfdmrzn/AKFRatingView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "akfdmrzn": "maddemirezen@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/akfdmrzn/AKFRatingView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AKFRatingView/Classes/**/*"
+}
